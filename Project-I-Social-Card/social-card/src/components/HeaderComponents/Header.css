@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+.header-container {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 110%;
+  position: relative;
+  right: 10%;
+}
+.title-container {
+  display: flex;
+  width: 73%;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.handle {
+  font-weight: lighter;
+  color: lightgray;
+}
+
+.date {
+  font-weight: lighter;
+  color: lightgray;
+}
+
+.img {
+  width: 85px;
+  height: 89px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.header-text{
+  padding-left: 5px;
+}

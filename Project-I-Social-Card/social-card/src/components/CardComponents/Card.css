@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+.gray{
+  color: lightgray;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 9px;
+}
